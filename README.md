@@ -1,1 +1,5 @@
 # ollieangell
+
+--
+permalink: /index.html
+--
