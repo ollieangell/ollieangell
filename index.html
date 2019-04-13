@@ -1,17 +1,16 @@
 <html>
 <head>
-<style>
-img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-<img src="www.dropbox.com/s/0zvgjvm79x30wao/Screenshot%202019-04-12%20at%2022.41.08.png?dl=0" alt="Paris" style="width:150px">
+<h2>The picture Element</h2>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="www.dropbox.com/s/0zvgjvm79x30wao/Screenshot%202019-04-12%20at%2022.41.08.png?dl=0">
+  <source media="(min-width: 465px)" srcset="www.dropbox.com/s/0zvgjvm79x30wao/Screenshot%202019-04-12%20at%2022.41.08.png?dl=0">
+  <img src="www.dropbox.com/s/0zvgjvm79x30wao/Screenshot%202019-04-12%20at%2022.41.08.png?dl=0" alt="Flowers" style="width:auto;">
+</picture>
 
 </body>
 </html>
